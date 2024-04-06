@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+}
+.banner-container{
+    position: relative;
+    height: 60vh;
+    background-color: red;
+}
+.h60vh{
+    height: 60vh;
+    object-fit: cover;
+}
+.banner-content{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.mt-auto{
+   margin-top: auto;
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+a{
+    color: white;
+}
+a:hover{
+    transform: scale(1.2);
+}

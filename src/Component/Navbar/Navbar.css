@@ -1,0 +1,34 @@
+.h10vh{
+    height: 10vh;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.w60vw{
+    width: 50vw;
+}
+.btn{
+    border: none;
+    padding: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.active{
+    border-bottom: 3px solid orangered;
+    transition: 0.5 ease-in-out ;
+}
